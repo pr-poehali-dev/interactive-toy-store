@@ -8,27 +8,27 @@ const Index = () => {
   const toys = [
     {
       id: 1,
-      name: "Робот-компаньон Макс",
-      price: "12 990 ₽",
-      description: "ИИ-помощник с голосовым управлением и обучающими играми",
-      image: "/img/5f7455c6-e8e2-4a11-bdfd-136c150061c3.jpg",
-      features: ["Распознавание речи", "100+ игр", "Обновления ПО"]
+      name: "Бионическая собака NEXUS",
+      price: "89 990 ₽",
+      description: "Продвинутый четвероногий компаньон с нейросетевым ИИ и биомиметикой",
+      image: "/img/517f897d-2f00-4126-9b72-5eb7ea9597c4.jpg",
+      features: ["Бионические сенсоры", "Адаптивное поведение", "Голографический интерфейс"]
     },
     {
       id: 2,
-      name: "Умный мишка Тедди+",
-      price: "8 490 ₽", 
-      description: "Интерактивная игрушка с эмоциональным ИИ и сказками",
-      image: "/img/7ebf3dd6-a775-489a-864e-940559e675a1.jpg",
-      features: ["Эмоции в реальном времени", "1000+ сказок", "Связь с родителями"]
+      name: "Гуманоидный ассистент ARIA",
+      price: "125 990 ₽", 
+      description: "Бионический помощник с эмоциональным ИИ и хромированным корпусом",
+      image: "/img/692085f1-5e87-47c8-85d9-3f686b239ff3.jpg",
+      features: ["Эмоциональный интеллект", "Голосовой синтез", "Тактильные сенсоры"]
     },
     {
       id: 3,
-      name: "Дрон-исследователь",
-      price: "15 990 ₽",
-      description: "Обучающий дрон с ИИ-навигацией для STEM-образования",
-      image: "/img/44120de6-72a5-4782-8bb5-8761eb2f492b.jpg",
-      features: ["Автономный полёт", "Программирование", "Камера 4K"]
+      name: "Летающий компаньон PHOENIX",
+      price: "67 990 ₽",
+      description: "Бионический дрон с крыльями-мембранами и квантовыми процессорами",
+      image: "/img/2cfef671-2a42-48dc-bbf7-33a185576f54.jpg",
+      features: ["Биомиметичный полёт", "Квантовый ИИ", "Энергоэффективность"]
     }
   ];
 
@@ -39,7 +39,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Icon name="Bot" className="text-primary" size={32} />
-            <h1 className="text-2xl font-bold text-gray-900">AI TOYS STORE</h1>
+            <h1 className="text-2xl font-bold text-gray-900">BIONIC COMPANIONS</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-primary border-b-2 border-primary pb-1 font-medium">Главная</a>
@@ -61,13 +61,13 @@ const Index = () => {
             Новое поколение игрушек
           </Badge>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Интерактивные игрушки
+            Бионические компаньоны
             <br />
-            <span className="text-primary">со встроенным ИИ</span>
+            <span className="text-primary">нового поколения</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Откройте мир умных игрушек с искусственным интеллектом. 
-            Обучение, развлечение и взаимодействие на новом уровне.
+            Передовые бионические технологии встречают искусственный интеллект. 
+            Элитные компаньоны для тех, кто выбирает будущее.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="px-8 py-4">
@@ -118,10 +118,10 @@ const Index = () => {
       <section id="catalog" className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">
-            Каталог умных игрушек
+            Премиальная коллекция
           </h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            Каждая игрушка оснащена передовым ИИ для максимального развития и веселья
+            Эксклюзивные бионические компаньоны с передовым ИИ и биомиметическими технологиями
           </p>
           
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
@@ -259,12 +259,12 @@ const Index = () => {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4">Каталог</h4>
+              <h4 className="font-semibold mb-4">Коллекции</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Роботы</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Мягкие игрушки</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Дроны</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Конструкторы</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Четвероногие</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Гуманоиды</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Летающие</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Элитная серия</a></li>
               </ul>
             </div>
 
@@ -300,7 +300,7 @@ const Index = () => {
           <Separator className="my-8 bg-gray-800" />
           
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400">&copy; 2024 AI Toys Store. Все права защищены.</p>
+            <p className="text-gray-400">&copy; 2024 Bionic Companions. Все права защищены.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Icon name="Facebook" size={20} className="text-gray-400 hover:text-white cursor-pointer transition-colors" />
               <Icon name="Instagram" size={20} className="text-gray-400 hover:text-white cursor-pointer transition-colors" />
